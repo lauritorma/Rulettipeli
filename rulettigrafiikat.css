@@ -1,0 +1,76 @@
+
+body{
+    background-image: url('./kuvat/rulettitausta.jpg');
+}
+h1{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    color:white;
+}
+
+#nappula{
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    text-align: center;
+    width: 250px;
+    height: 80px; 
+    border:none; 
+    padding:20px; 
+    text-decoration: none; 
+    display: inline-block; 
+    margin: 4px 2px;
+}
+
+#nappula:hover{
+    color:crimson;
+    background-color:black;
+}
+  
+    
+    
+
+/*medium näytöt*/
+
+
+@media screen and (max-width: 736px) {
+    h1{
+        font-size: 35px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+    footer{
+        margin-top: 130px;
+    }
+}
+
+/* pienet näytöt */
+
+@media screen and (max-width: 480px) {
+
+    body{
+        text-align: center;
+    }
+    h1{
+        font-size:50px;
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+
+    footer{
+        margin-top: 30px;
+    }
+}
+
+
+
