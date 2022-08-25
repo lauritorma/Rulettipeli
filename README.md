@@ -1,3 +1,3 @@
-# RussianRoulette
+# Rulettipeli
 
-Yksinkertainen rulettipeli, harjoituksen ja huvin vuoksi.
+Yksinkertainen rulettipeli.
